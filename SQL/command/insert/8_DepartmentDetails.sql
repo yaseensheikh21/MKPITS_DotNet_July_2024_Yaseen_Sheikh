@@ -1,0 +1,1 @@
+insert into DepartmentDetails (DepName,created_at) values ('maths', '20/03/2022'),('eng', '20/03/2022'),('sci', '20/03/2022'),('Geo', '20/03/2022')

@@ -1,0 +1,1 @@
+create table Customers (Id int IDENTITY(1,1) Primary Key,FirstName varchar(50),LastName varchar(50),City varchar(50),Country varchar(50),Email varchar(50) ,Phone varchar(50));

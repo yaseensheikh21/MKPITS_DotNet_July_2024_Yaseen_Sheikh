@@ -1,0 +1,3 @@
+Select C.FirstName, C.LastName, O.TotalAmount from Customer C join Orders O on C.Id=O.CustomerId where O.OrdersDate between '2012-07-04 00:00:00.000' and '2012-07-05 00:00:00.000' -- to check orders date 
+Select C.Id, C.FirstName,C.LastName from Customer C join Orders O on C.ID=O.CustomerId where C.ID!=O.CustomerId -- to check whether the customer order something or not
+Select avg(orders.TotalAmount) as Average from Orders Join OrderItem on Orders.Id=OrderItem.OrderId -- average of orders itemselect O.TotalAmount from Orders as orders inner Join  Customer as C on O.CustomerId = C.Id;

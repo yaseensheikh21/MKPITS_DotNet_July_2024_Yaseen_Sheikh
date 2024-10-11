@@ -1,0 +1,11 @@
+Select  * From tb_StudentDetails;
+Select  StudentName From tb_StudentDetails;
+Select  StudentName,StudentId From tb_StudentDetails;
+Select  StudentName,StudentId From tb_StudentDetails where StudentName ='Neeraj';
+Select  StudentName From tb_StudentDetails where (max (StudentId) From tb_StudentDetails);
+SElect max (StudentId) From tb_StudentDetails;
+SElect min (StudentId) From tb_StudentDetails;
+SElect count(*) From tb_StudentDetails;
+Select  StudentName,StudentId From tb_StudentDetails where StudentId>101 and StudentId<103;
+select Square(5);
+Select  * From tb_StudentDetails;

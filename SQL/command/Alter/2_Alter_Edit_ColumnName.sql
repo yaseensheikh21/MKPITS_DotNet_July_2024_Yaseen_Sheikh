@@ -1,0 +1,1 @@
+Alter table EmployeeDetail add Address varchar(100);
